@@ -26,7 +26,7 @@ else:
 # TODO(@dathudeptrai) update requirement if needed.
 requirements = {
     "install": [
-        "tensorflow>=2.7.0",
+        "tensorflow>=2.7.0,<2.15.0",
         "tensorflow-addons[tensorflow]>=0.10.0",
         "setuptools>=38.5.1",
         "huggingface_hub==0.0.8",
